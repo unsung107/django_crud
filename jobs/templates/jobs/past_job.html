@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+your job
+{% endblock title %}
+
+{% block body %}
+<h1>너의 직업은</h1>
+<h3>{{ name }}의 전생직업은 {{ job }} 이었습니다</h3>
+<img src={{image}} alt="놉">
+<a href="/jobs">[돌아가기]</a>
+{% endblock body %}
